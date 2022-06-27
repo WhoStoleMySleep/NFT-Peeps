@@ -1,0 +1,15 @@
+.button {
+  background: #F7859C;
+  border-radius: 12px;
+  font-weight: 700;
+  padding: 8px 26px 11px 29px;
+  color: #fff;
+  border: none;
+  outline: none;
+  transition-duration: 250ms;
+  height: fit-content;
+  
+  &:hover {
+    opacity: 0.7;
+  }
+}
