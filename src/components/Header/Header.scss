@@ -1,0 +1,104 @@
+.header {
+  padding: 28px 65px 0 70px;
+  height: 101px;
+  width: calc(100% - (65px + 70px));
+  overflow: hidden;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+
+  &__menu {
+    display: flex;
+  }
+
+  &__logo {
+    margin-right: auto;
+    display: block;
+  }
+
+  &__link-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 17px;
+    max-width: 387px;
+    width: 100%;
+    justify-content: space-between;
+
+    a {
+      color: #222222;
+      text-decoration: none;
+      font-weight: 700;
+    }
+  }
+
+  .button {
+    margin-left: 30px;
+    margin-top: 8px;
+  }
+}
+
+@media all and (max-width: 775px) {
+  .header {
+    width: calc(100% - 40px);
+    padding: {
+      left: 20px;
+      right: 20px;
+    };
+
+    &__link-list {
+      margin-right: auto;
+      margin-left: 10px;
+    }
+
+    .button {
+      margin-left: 10px;
+    }
+  }
+}
+
+@media all and (max-width: 600px) {
+  .header {
+    padding: 0;
+    padding-top: 15px;
+    width: 100%;
+    box-sizing: border-box;
+
+    &.open {
+      height: 100vh;
+    }
+
+    &__logo {
+      margin-left: auto;
+      margin-top: 0;
+    }
+
+    &__menu {
+      display: block;
+    }
+
+    &__link-list {
+      display: block;
+      margin-left: auto;
+    }
+
+    &__link {
+      a{
+        display: block;
+        width: fit-content;
+        margin: {
+          left: auto;
+          right: auto;
+          bottom: 20px;
+        };
+      }
+    }
+
+    .button {
+      display: block;
+      margin: {
+        left: auto;
+        right: auto;
+      };
+    }
+  }
+}
