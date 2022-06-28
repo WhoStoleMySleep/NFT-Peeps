@@ -1,0 +1,103 @@
+.collection {
+  margin-top: 120px;
+
+  &__upper {
+    font-weight: 700;
+    color: #222222;
+    margin: 0 auto;
+    margin-bottom: 4px;
+    position: relative;
+    width: fit-content;
+
+    &::after {
+      content: '';
+      background: url('../../assets/images/dot.png');
+      width: 33px;
+      height: 36px;
+      display: block;
+      position: absolute;
+      top: -12px;
+      left: -14px;
+      z-index: -1;
+    }
+  }
+
+  &__headed {
+    text-align: center;
+    margin: 0;
+  }
+
+  &__row {
+    display: flex;
+  }
+
+  &__list-col {
+    max-width: 374px;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 230px;
+    margin-top: 146px;
+  }
+
+  &__list-item {
+    border-bottom: 1px solid rgba(64, 71, 86, 0.6);
+    padding-top: 27px;
+    padding-bottom: 32px;
+
+    &:first-of-type {
+      padding-top: 0;
+    }
+
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
+
+  &__list-headed {
+    margin: 0;
+    margin-bottom: 17px;
+  }
+
+  &__list-additional {
+    padding-right: 42px;
+    margin: 0;
+    color: #404756;
+  }
+
+  &__image {
+    right: 62px;
+    display: block;
+    position: absolute;
+    margin-top: 76px;
+  }
+}
+
+@media all and (max-width: 1275px) {
+  .collection {
+    &__list-col {
+      margin-left: 20px;
+    }
+
+    &__image {
+      right: -68px;
+    }
+  }
+}
+
+@media all and (max-width: 890px) {
+  .collection {
+    &__list-col {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    &__list-additional {
+      padding: 0 20px;
+    }
+
+    &__image {
+      display: none;
+    }
+  }
+}
