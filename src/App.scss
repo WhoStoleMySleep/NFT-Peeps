@@ -1,7 +1,18 @@
 @import './assets/fonts/fonts.scss';
 
+@mixin header-tag($tag, $font-size, $line-height) {
+  #{$tag} {
+    font-size: $font-size;
+    line-height: $line-height;
+  }
+}
+
 body {
   margin: 0;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
 }
 
 button,
@@ -11,3 +22,19 @@ p {
   font-size: 18px;
   line-height: 25px;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+  color: #222222;
+  font-family: 'Montserrat';
+}
+
+@include header-tag(h1, 97px, 87px);
+@include header-tag(h2, 65px, 58px);
+@include header-tag(h3, 36px, 32px);
+@include header-tag(h4, 24px, 22px);
+@include header-tag(h5, 18px, 16px);
