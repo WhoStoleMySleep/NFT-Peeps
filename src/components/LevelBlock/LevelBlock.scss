@@ -1,0 +1,96 @@
+.level-block {
+  list-style-type: none;
+  min-height: 641px;
+  padding: 62px 0 68px 0;
+  border-top: 1px solid rgba(64, 71, 86, 0.6);
+  box-sizing: border-box;
+  display: flex;
+
+  &__item-headed {
+    margin: 0;
+    margin-bottom: 31px;
+  }
+
+  &__tier {
+    display: flex;
+    margin-bottom: 28px;
+  }
+
+  &__tier-headed {
+    margin: 0;
+    margin-right: 32px;
+  }
+
+  &__tier-dots {
+    list-style-type: none;
+    display: flex;
+    margin-top: 2px;
+    padding: 0;
+  }
+
+  &__tier-dot {
+    background: url('../../assets/images/dot.png') no-repeat;
+    background-size: contain;
+    width: 16.5px;
+    height: 17.9px;
+    margin-left: 5.5px;
+
+    &.active {
+      opacity: 0.6;
+      filter: saturate(30);
+    }
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+  }
+
+  &__additional {
+    margin: 0;
+    max-width: 336px;
+  }
+
+  &__skin {
+    right: 231px;
+    position: absolute;
+    max-width: 392px;
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 1230px) {
+  .level-block {
+    &__skin {
+      right: 130px;
+    }
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .level-block {
+    &__skin {
+      right: 20px;
+    }
+  }
+}
+
+@media all and (max-width: 700px) {
+  .level-block {
+    flex-direction: column;
+
+    &__text-col {
+      margin: 0 auto;
+      width: fit-content;
+      order: 1;
+    }
+
+    &__skin {
+      position: relative;
+      right: 0;
+      display: block;
+      margin: 0 auto;
+      order: 0;
+      margin-bottom: 40px;
+    }
+  }
+}
