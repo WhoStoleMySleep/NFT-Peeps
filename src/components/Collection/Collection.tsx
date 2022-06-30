@@ -1,5 +1,7 @@
+import React from 'react';
 import './Collection.scss'
 import group from '../../assets/images/group.png'
+const ImgSuspense = React.lazy(() => import('../ImgSuspense/ImgSuspense'))
 
 const Collection = () => {
   return (
@@ -38,7 +40,7 @@ const Collection = () => {
           </li>
         </ul>
         {window.screen.width > 890 &&
-          <img src={group} alt='' className='collection__image' />
+          <ImgSuspense src={group} className={'collection__image'} />
         }
       </div>
     </section>

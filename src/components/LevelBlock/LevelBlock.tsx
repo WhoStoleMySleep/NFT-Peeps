@@ -1,4 +1,6 @@
+import React from 'react'
 import './LevelBlock.scss'
+const ImgSuspense = React.lazy(() => import('../ImgSuspense/ImgSuspense'))
 
 const LevelBlock = (props: {
   headedText: string,
@@ -41,7 +43,7 @@ const LevelBlock = (props: {
           {additionalText}
         </p>
       </div>
-      <img src={props.skinImg} alt='' className='level-block__skin' />
+      <ImgSuspense src={skinImg} className={'level-block__skin'} />
     </li>
   );
 }

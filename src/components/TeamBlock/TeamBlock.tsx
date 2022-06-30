@@ -1,4 +1,6 @@
+import React from 'react';
 import './TeamBlock.scss'
+const ImgSuspense = React.lazy(() => import('../ImgSuspense/ImgSuspense'))
 
 const TeamBlock = (props : {
   img: any,
@@ -10,7 +12,7 @@ const TeamBlock = (props : {
   return (
     <li className='team-block'>
       <div className='team-block__human-img-container'>
-        <img src={img} alt={name.toLowerCase()} className='team-block__human-img' />
+        <ImgSuspense src={img} alt={name.toLowerCase()} className={'team-block__human-img'} />
       </div>
       <div className='team-block__text-container'>
         <h5 className='team-block__profession'>{profession}</h5>
