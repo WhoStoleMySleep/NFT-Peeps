@@ -42,7 +42,7 @@
 
     &::before {
       content: '';
-      background: url('../../assets/images/dot.png');
+      background: url('../../assets/images/two-dot.png');
       width: 33px;
       height: 36px;
       display: block;
@@ -50,8 +50,6 @@
       z-index: -1;
       top: -11px;
       left: -12px;
-      opacity: 0.6;
-      filter: saturate(30);
     }
   }
 

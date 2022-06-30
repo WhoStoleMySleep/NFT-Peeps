@@ -1,10 +1,10 @@
 import LevelBlock from '../LevelBlock/LevelBlock';
 import './Content.scss'
-import common from '../../assets/images/common.png'
-import uncomon from '../../assets/images/uncommon.png'
+import common from '../../assets/images/john.png'
+import uncomon from '../../assets/images/matthew.png'
 import rare from '../../assets/images/rare.png'
 import veryRare from '../../assets/images/very-rare.png'
-import legendary from '../../assets/images/legendary.png'
+import legendary from '../../assets/images/jessica.png'
 
 const Content = () => {
   const levelBlockInform = [
