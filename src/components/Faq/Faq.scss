@@ -1,4 +1,6 @@
 .faq {
+  margin-bottom: 219px + 113px;
+
   &__upper {
     width: fit-content;
     margin: 325px auto 4px auto;
@@ -33,7 +35,8 @@
 
 @media all and (max-width: 700px) {
   .faq {
-    margin: 0 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 
     &__headed {
       font-size: 55px;
