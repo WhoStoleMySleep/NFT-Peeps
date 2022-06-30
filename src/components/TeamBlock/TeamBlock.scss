@@ -1,0 +1,39 @@
+.team-block {
+  max-width: 294px;
+  width: 100%;
+  min-height: 407px;
+  text-align: center;
+
+  &__human-img-container {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 13px + 24px;
+    height: 288px;
+    margin-top: 20.5px;
+    
+    &::before {
+      content: '';
+      width: 294px;
+      height: 32px;
+      background: #F7859C;
+      border-radius: 100%;
+      position: absolute;
+      left: 0;
+      bottom: -13px;
+      z-index: -1;
+    }
+  }
+
+  &__human-img {
+    height: 288px;
+  }
+
+  &__name,
+  &__profession {
+    margin: 0;
+  }
+
+  &__name {
+    margin-bottom: 6px;
+  }
+}
