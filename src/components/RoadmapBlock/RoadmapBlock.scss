@@ -1,0 +1,102 @@
+.roadmap-block {
+  display: flex;
+  margin-top: 108px;
+  position: relative;
+  min-height: 457px;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+  
+  &__precent-container {
+    display: flex;
+    margin-top: 111px;
+    position: absolute;
+    width: fit-content;
+  }
+  
+  &__precent {
+    line-height: 36px;
+    margin: 0;
+    margin-left: 11px;
+    font-family: 'Montserrat';
+    color: #F7859C;
+    font-weight: 400;
+  }
+
+  &__precent-img {
+    width: 33px;
+    height: 36px;
+    right: 0;
+  }
+
+  &__content {
+    min-height: 457px;
+    background: url('../../assets/images/two-big-dot.png') no-repeat;
+    max-width: 529px;
+    width: 100%;
+    background-size: 100% 100%;
+    padding: 0 108px 0 85px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  &__data {
+    margin: 122px 0 9px 0;
+  }
+
+  &__headed {
+    margin: 0 0 23px 0;
+  }
+
+  &__additional {
+    color: #404756;
+  }
+
+  &__img {
+    position: absolute;
+  }
+}
+
+@media all and (max-width: 830px) {
+  .roadmap-block {
+    .roadmap-block__image-container {
+      display: none;
+    }
+  }
+}
+
+@media all and (max-width: 830px) {
+  .roadmap-block {
+    &__content {
+      position: absolute;
+      z-index: -1;
+      left: calc(50% - 529px / 2);
+      margin: 0;
+    }
+
+    &__precent-container {
+      margin-top: 40px;
+      margin-left: calc(50% - 60px);
+    }
+  }
+}
+
+@media all and (max-width: 530px) {
+  .roadmap-block {
+    &__content {
+      left: 0;
+      padding: 0 68px 70px 45px;
+    }
+  }
+}
+
+@media all and (max-width: 396px) {
+  .roadmap-block {
+    &__content {
+      background: none;
+      background-color: #FDDBE2;
+      border-radius: 200px;
+    }
+  }
+}
