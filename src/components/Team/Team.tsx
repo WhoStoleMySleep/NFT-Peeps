@@ -42,7 +42,7 @@ const Team = () => {
   ]
 
   return (
-    <section className='team'>
+    <section className='team' id='team'>
       <p className='team__upper'>Team</p>
       <h2 className='team__headed'>Meet Our Team</h2>
       <ul className='team__developer-container'>

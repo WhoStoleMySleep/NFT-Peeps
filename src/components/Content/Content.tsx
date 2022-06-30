@@ -41,7 +41,7 @@ const Content = () => {
   ]
 
   return (
-    <section className='content'>
+    <section className='content' id='content'>
       <p className='content__upper'>Rarity</p>
       <h2 className='content__headed'>Exclusive Content</h2>
       <ul className='content__level-list'>

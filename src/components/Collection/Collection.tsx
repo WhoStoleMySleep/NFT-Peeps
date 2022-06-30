@@ -5,7 +5,7 @@ const ImgSuspense = React.lazy(() => import('../ImgSuspense/ImgSuspense'))
 
 const Collection = () => {
   return (
-    <section className='collection'>
+    <section className='collection' id='collection'>
       <p className='collection__upper'>
         Collection
       </p>
