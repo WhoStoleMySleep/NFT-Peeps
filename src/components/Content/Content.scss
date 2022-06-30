@@ -9,7 +9,7 @@
   &::before {
     content: '';
     background: url('../../assets/images/wave.png');
-    background-size: 100% 100%;
+    background-size: auto 100%;
     background-repeat: no-repeat;
     width: 100%;
     height: 137px;
@@ -22,7 +22,7 @@
   &::after {
     content: '';
     background: url('../../assets/images/wave.png');
-    background-size: 100% 100%;
+    background-size: auto 100%;
     background-repeat: no-repeat;
     width: 100%;
     height: 137px;
@@ -44,6 +44,7 @@
     &::before {
       content: '';
       background: url('../../assets/images/two-dot.png');
+      background-size: 100% 100%;
       width: 33px;
       height: 36px;
       display: block;
@@ -67,6 +68,15 @@
   .level-block {
     &:nth-child(5) {
       border-bottom: 1px solid rgba(64, 71, 86, 0.6);
+    }
+  }
+}
+
+@media all and (min-width: 1430px) {
+  .content {
+    &::before,
+    &::after {
+      background-size: 100% 100%;
     }
   }
 }

@@ -12,6 +12,7 @@
     &::after {
       content: '';
       background: url('../../assets/images/first-dot.png');
+      background-size: 100% 100%;
       width: 33px;
       height: 36px;
       display: block;
