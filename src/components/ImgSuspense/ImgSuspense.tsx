@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import { Suspense } from 'react';
 
 const ImgSuspense = (props: { src: string, alt?: string, className?: string}) => {
   const {src, alt, className} = props

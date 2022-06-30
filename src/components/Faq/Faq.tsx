@@ -31,9 +31,9 @@ const Faq = () => {
 
   return (
     <section className='faq'>
-      <p className="faq__upper">Faq</p>
-      <h2 className="faq__headed">Frequent Questions</h2>
-      <ul className="faq__questions-container">
+      <p className='faq__upper'>Faq</p>
+      <h2 className='faq__headed'>Frequent Questions</h2>
+      <ul className='faq__questions-container'>
         <FaqBlock {...faqBlockInfo[0]} />
         <FaqBlock {...faqBlockInfo[1]} />
         <FaqBlock {...faqBlockInfo[2]} />

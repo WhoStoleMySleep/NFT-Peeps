@@ -5,8 +5,8 @@ const FaqBlock = (props: { headedText: string, fullText: string }) => {
 
   return (
     <li className='faq-block'>
-      <details className="faq-block__container">
-        <summary className="faq-block__headed">{headedText}</summary>
+      <details className='faq-block__container'>
+        <summary className='faq-block__headed'>{headedText}</summary>
         <p className='faq-block__full-text'>{fullText}</p>
       </details>
     </li>
