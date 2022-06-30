@@ -42,9 +42,9 @@ const Content = () => {
 
   return (
     <section className='content'>
-      <p className="content__upper">Rarity</p>
-      <h2 className="content__headed">Exclusive Content</h2>
-      <ul className="content__level-list">
+      <p className='content__upper'>Rarity</p>
+      <h2 className='content__headed'>Exclusive Content</h2>
+      <ul className='content__level-list'>
         <LevelBlock {...levelBlockInform[0]} />
         <LevelBlock {...levelBlockInform[1]} />
         <LevelBlock {...levelBlockInform[2]} />

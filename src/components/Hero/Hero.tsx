@@ -11,9 +11,9 @@ const Hero = () => {
     <section className='hero'>
       {window.screen.width > 1100 &&
         <div className='hero__left-human'>
-          <img src={bigDot} alt="" />
-          <img src={leftHuman} alt="" />
-          <img src={leftDots} alt="" />
+          <img src={bigDot} alt='' />
+          <img src={leftHuman} alt='' />
+          <img src={leftDots} alt='' />
         </div>
       }
       <div className='hero__center-content'>
@@ -35,9 +35,9 @@ const Hero = () => {
       </div>
       {window.screen.width > 1100 &&
         <div className='hero__right-human'>
-          <img src={bigDot} alt="" />
-          <img src={rightHuman} alt="" />
-          <img src={rightDots} alt="" />
+          <img src={bigDot} alt='' />
+          <img src={rightHuman} alt='' />
+          <img src={rightDots} alt='' />
         </div>
       }
     </section>
