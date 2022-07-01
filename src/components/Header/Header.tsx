@@ -5,11 +5,13 @@ import logo from '../../assets/images/logo.svg'
 
 const Header = () => {
   const onVievMenu = () => {
-    const header = document.querySelector('.js-header')
-    const body = document.body
-
-    header?.classList.toggle('open')
-    body.classList.toggle('no-scroll')
+    if (window.screen.width <= 600) {
+      const header = document.querySelector('.js-header')
+      const body = document.body
+  
+      header?.classList.toggle('open')
+      body.classList.toggle('no-scroll')
+    }
   }
 
   const closeHeader = () => {
