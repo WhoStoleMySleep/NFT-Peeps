@@ -1,8 +1,8 @@
 import RoadmapBlock from '../RoadmapBlock/RoadmapBlock';
 import './Roadmap.scss'
-import roadmapFirstHuman from '../../assets/images/roadmap-first-human.png'
-import roadmapTwoHuman from '../../assets/images/roadmap-two-human.png'
-import roadmapThreeHuman from '../../assets/images/roadmap-three-human.png'
+import roadmapFirstHuman from '../../assets/images/roadmap-first-human.webp'
+import roadmapTwoHuman from '../../assets/images/roadmap-two-human.webp'
+import roadmapThreeHuman from '../../assets/images/roadmap-three-human.webp'
 
 const Roadmap = () => {
   const roadmapBlockContent = [

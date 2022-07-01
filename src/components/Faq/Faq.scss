@@ -10,7 +10,7 @@
 
     &::before {
       content: '';
-      background: url('../../assets/images/four-dot.png') no-repeat;
+      background: url('../../assets/images/four-dot.webp') no-repeat;
       background-size: 100% 100%;
       width: 31px;
       height: 34px;
@@ -26,7 +26,7 @@
     margin-bottom: 78px;
     text-align: center;
   }
-  
+
   &__questions-container {
     list-style-type: none;
     padding: 0;

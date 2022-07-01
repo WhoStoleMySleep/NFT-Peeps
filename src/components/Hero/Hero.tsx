@@ -1,10 +1,10 @@
 import Button from '../Button/Button';
 import './Hero.scss'
-import leftHuman from '../../assets/images/left-human.png';
-import rightHuman from '../../assets/images/right-human.png';
-import bigDot from '../../assets/images/big-dot.png';
-import leftDots from '../../assets/images/left-dots.png';
-import rightDots from '../../assets/images/right-dots.png';
+import leftHuman from '../../assets/images/left-human.webp';
+import rightHuman from '../../assets/images/right-human.webp';
+import bigDot from '../../assets/images/big-dot.webp';
+import leftDots from '../../assets/images/left-dots.webp';
+import rightDots from '../../assets/images/right-dots.webp';
 
 const Hero = () => {
   return (

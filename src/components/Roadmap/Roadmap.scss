@@ -2,7 +2,7 @@
   max-width: 979px;
   width: 100%;
   margin: 394px auto 0 auto;
-  
+
   &__upper {
     width: fit-content;
     margin: 0 auto 4px auto;
@@ -12,7 +12,7 @@
 
     &::before {
       content: '';
-      background: url('../../assets/images/three-dot.png');
+      background: url('../../assets/images/three-dot.webp');
       width: 33px;
       height: 36px;
       display: block;
@@ -48,7 +48,7 @@
           content: '';
           width: 346px;
           height: 344px;
-          background: url('../../assets/images/right-dots.png') no-repeat;
+          background: url('../../assets/images/right-dots.webp') no-repeat;
           background-size: 100% 100%;
           position: absolute;
           right: -148px;
@@ -71,7 +71,7 @@
 }
 
 @media all and (max-width: 1130px) {
-  .roadmap { 
+  .roadmap {
     .roadmap-block {
       &:nth-child(2) {
         .roadmap-block__img {

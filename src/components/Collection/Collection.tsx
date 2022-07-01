@@ -1,6 +1,6 @@
 import React from 'react';
 import './Collection.scss'
-import group from '../../assets/images/group.png'
+import group from '../../assets/images/group.webp'
 const ImgSuspense = React.lazy(() => import('../ImgSuspense/ImgSuspense'))
 
 const Collection = () => {

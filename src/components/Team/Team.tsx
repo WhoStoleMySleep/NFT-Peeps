@@ -1,11 +1,11 @@
 import TeamBlock from '../TeamBlock/TeamBlock';
 import './Team.scss'
-import jennifer from '../../assets/images/jennifer.png'
-import matthew from '../../assets/images/matthew.png'
-import john from '../../assets/images/john.png'
-import justin from '../../assets/images/justin.png'
-import jessica from '../../assets/images/jessica.png'
-import katty from '../../assets/images/katty.png'
+import jennifer from '../../assets/images/jennifer.webp'
+import matthew from '../../assets/images/matthew.webp'
+import john from '../../assets/images/john.webp'
+import justin from '../../assets/images/justin.webp'
+import jessica from '../../assets/images/jessica.webp'
+import katty from '../../assets/images/katty.webp'
 
 const Team = () => {
   const teamBlockInfo = [

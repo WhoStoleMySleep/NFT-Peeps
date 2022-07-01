@@ -1,5 +1,5 @@
 .footer {
-  background: #D3D4ED;
+  background: #d3d4ed;
   min-height: 441px;
   position: relative;
 
@@ -7,7 +7,7 @@
     content: '';
     width: 100%;
     height: 113px;
-    background: url('../../assets/images/three-wave.png') no-repeat;
+    background: url('../../assets/images/three-wave.webp') no-repeat;
     background-size: auto 100%;
     position: absolute;
     top: -113px;
@@ -71,7 +71,7 @@
       width: 84px;
     }
   }
-  
+
   &__navigation {
     width: 100px;
     margin-top: 132.5px;
@@ -94,7 +94,7 @@
       position: absolute;
       top: -12px;
       left: -14px;
-      background: url('../../assets/images/four-dot.png') no-repeat;
+      background: url('../../assets/images/four-dot.webp') no-repeat;
       background-size: 100% 100%;
       z-index: -1;
     }
@@ -119,7 +119,7 @@
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
-    
+
     &::before {
       content: '';
       width: 100%;
