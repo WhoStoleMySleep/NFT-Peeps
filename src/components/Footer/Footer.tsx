@@ -7,19 +7,47 @@ const Footer = () => {
         <div className='footer__follow'>
           <h2 className='footer__follow-headed'>Follow us on</h2>
           <div className='footer__follow-links'>
-            <a href='' className='footer__follow-link'>Discord</a>
-            <a href='' className='footer__follow-link'>Twitter</a>
-            <a href='' className='footer__follow-link'>Instagram</a>
-            <a href='' className='footer__follow-link'>Facebook</a>
+            <a
+              href='https://discord.com/'
+              className='footer__follow-link'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Discord
+            </a>
+            <a
+              href='https://twitter.com/'
+              className='footer__follow-link'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Twitter
+            </a>
+            <a
+              href='https://www.instagram.com/'
+              className='footer__follow-link'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Instagram
+            </a>
+            <a
+              href='https://www.facebook.com/'
+              className='footer__follow-link'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Facebook
+            </a>
           </div>
         </div>
         {window.screen.width >= 640 &&
           <div className='footer__navigation'>
             <p className='footer__navigation-headed'>Navigation</p>
-            <a href='' className='footer__navigation-link'>Home</a>
-            <a href='' className='footer__navigation-link'>Style Guide</a>
-            <a href='' className='footer__navigation-link'>Licenses</a>
-            <a href='' className='footer__navigation-link'>Changelog</a>
+            <a href='/mock-address/' className='footer__navigation-link'>Home</a>
+            <a href='/mock-address/' className='footer__navigation-link'>Style Guide</a>
+            <a href='/mock-address/' className='footer__navigation-link'>Licenses</a>
+            <a href='/mock-address/' className='footer__navigation-link'>Changelog</a>
           </div>
         }
       </div>
