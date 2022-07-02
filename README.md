@@ -9,7 +9,7 @@
 
 <br>
 <p align="center">
-Сайт одностраничник курса по поиску/созданию nft
+Site single page site course on finding/creating nft
 </p>
 
 <br>
