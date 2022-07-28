@@ -11,11 +11,3 @@
 <p align="center">
 Site single page site course on finding/creating nft
 </p>
-
-<br>
-
-## About the project
-
-<br>
-
-A site created in 4 days that was written in React, well optimized
