@@ -9,5 +9,5 @@
 
 <br>
 <p align="center">
-Site single page site course on finding/creating nft
+Site single page site course on finding/creating nft.
 </p>
